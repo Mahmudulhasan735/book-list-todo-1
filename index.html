@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Book_list_wrapper">
+        <div class="book_list">
+            <h1><i class="text-warning fas fa-book-open"></i> Student <span class= "text-warning">Book</span> list</h1>
+            <div class="input_group">
+                <label for="title">Title of the book</label>
+                <input type="text" class="title_of_book">
+            </div>
+    
+            <div class="input_group">
+                <label for="title">Author of the book</label>
+                <input type="text" class="author_of_book">
+            </div>
+    
+            <div class="input_group">
+                <label for="title">Secret key of the book</label>
+                <input type="text" class="secret_of_book">
+            </div>
+    
+            <div class="input_group">
+                <label for="title">Date</label>
+                <input type="number" class="date_of_book">
+            </div>
+        </div>
+        <button class="btn">Click Here to add book</button>
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Secret key</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody class="table-hover tbody_of_table ">
+    
+            </tbody>
+        </table>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
